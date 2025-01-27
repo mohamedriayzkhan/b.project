@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: url(./image/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #03347e;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+section nav li a:hover{
+    color:#03347e;
+
+}
+
+.social-icon i{
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.social-icon i:hover{
+    color: #03347e;
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 10%;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 25px;
+
+}
+
+section .main h1 span{
+    color:#03347e;
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main-tag .main-btn{
+    background: #03347e;
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+
+section .main img{
+    width: 780px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+.services{
+    width: 100%;
+    height: auto;
+    margin:35px 0;
+}
+
+.services  .services-box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services  .services-box .services-card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 10px #03347e;
+    padding: 15px 10px;
+}
+
+.services  .services-box .services-card i{
+    color: #03347e;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services  .services-box .services-card h3{
+    margin-bottom: 10px;
+
+}
+
+/*------- about -------*/
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-image img{
+    width: 750px;
+
+
+}
+
+.about .about-tag p{
+    line-height: 22px;
+    width: 650px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about .about-tag .about-btn{
+    padding: 10px 20px;
+    background-color: #03347e;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 50px;
+
+}
+
+/*------ Featureed Books------*/
+
+.featureed-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.featureed-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.featureed-books .featureed-book-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.featureed-books .featureed-book-tag .f-btn{
+    background: #03347e;
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card{
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card:hover{
+    box-shadow: 0 0 10px #03347e;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag h2{
+    margin: 12px;
+    
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag .writer{
+    color: #919191;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag .categories{
+    color: #03347e;
+    margin: 8px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag .book-price{
+    margin: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.featureed-books .featureed-book-box .featureed-book-card .featureed-book-tag .f-btn{
+    padding: 8px 20px;
+    border: 2px solid #03347e;
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 08px rgba(0,0,0,0,2);
+}
+
+::-webkit-scrollbar-button{
+    background-color: gray;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button:hover{
+    background-color: gray;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/*------ sifi-books --------*/
+
+.sifi-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.sifi-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.sifi-books .sifi-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.sifi-books .sifi-box .sifi-card{
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.sifi-books .sifi-box .sifi-card:hover{
+    box-shadow: 0 0 10px #03347e;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag h2{
+    margin: 12px;
+    
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag  .writer{
+    color: #919191;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag  .categories{
+    color: #03347e;
+    margin: 8px;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag  .book-price{
+    margin: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag  del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.sifi-books .sifi-box .sifi-card .sifi-tag .c-btn{
+    padding: 8px 20px;
+    border: 2px solid #03347e;
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 08px rgba(0,0,0,0,2);
+}
+
+::-webkit-scrollbar-button{
+    background-color: blue;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button:hover{
+    background-color: #03347e;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: #03347e;
+    border-radius: 5px;
+    border: 1px solid #03347e;
+}
+
+/*------------ Fiction-books ------------*/
+
+.fiction-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.fiction-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.fiction-books .fiction-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.fiction-books .fiction-box .fiction-card{
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.fiction-books .fiction-box .fiction-card:hover{
+    box-shadow: 0 0 10px #03347e;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag h2{
+    margin: 12px;
+    
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag .writer{
+    color: #919191;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag  .categories{
+    color: #03347e;
+    margin: 8px;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag  .book-price{
+    margin: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.fiction-books .fiction-box .fiction-card .fiction-tag .c-btn{
+    padding: 8px 20px;
+    border: 2px solid #03347e;
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 08px rgba(0,0,0,0,2);
+}
+
+::-webkit-scrollbar-button{
+    background-color: blue;
+    background-size: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button:hover{
+    background-color: #03347e;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: #03347e;
+    border-radius: 5px;
+    border: 1px solid #03347e;
+}
