@@ -507,3 +507,79 @@ section .main img{
     border-radius: 5px;
     border: 1px solid #03347e;
 }
+
+.tech-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.tech-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.tech-books .tech-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.tech-books .tech-box .tech-card{
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.tech-books .tech-box .tech-card:hover{
+    box-shadow: 0 0 10px #03347e;
+}
+
+.tech-books .tech-box .tech-card .tech-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.tech-books .tech-box .tech-card .tech-tag h2{
+    margin: 12px;
+    
+}
+
+.tech-books .tech-box .tech-card .tech-tag .writer{
+    color: #919191;
+}
+
+.tech-books .tech-box .tech-card .tech-tag  .categories{
+    color: #03347e;
+    margin: 8px;
+}
+
+.tech-books .tech-box .tech-card .tech-tag  .book-price{
+    margin: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tech-books .tech-box .tech-card .tech-tag del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.tech-books .tech-box .tech-card .tech-tag .c-btn{
+    padding: 8px 20px;
+    border: 2px solid #03347e;
+    text-decoration: none;
+    color: black;
+}
