@@ -583,3 +583,81 @@ section .main img{
     text-decoration: none;
     color: black;
 }
+
+/*-------- self-value books -------*/
+
+.self-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+.self-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+
+}
+
+.self-books .self-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.self-books .self-box .self-card{
+    width: 250px;
+    height: 390px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.self-books .self-box .self-card:hover{
+    box-shadow: 0 0 10px #03347e;
+}
+
+.self-books .self-box .self-card .self-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.self-books .self-box .self-card .self-tag h2{
+    margin: 12px;
+    
+}
+
+.self-books .self-box .self-card .self-tag .writer{
+    color: #919191;
+}
+
+.self-books .self-box .self-card .self-tag  .categories{
+    color: #03347e;
+    margin: 8px;
+}
+
+.self-books .self-box .self-card .self-tag  .book-price{
+    margin: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.self-books .self-box .self-card .self-tag del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.self-books .self-box .self-card .self-tag .c-btn{
+    padding: 8px 20px;
+    border: 2px solid #03347e;
+    text-decoration: none;
+    color: black;
+}
