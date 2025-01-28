@@ -136,8 +136,10 @@ section .main img{
     text-align: center;
     width: 310px;
     height: auto;
-    box-shadow: 0 0 10px #03347e;
+    box-shadow: 0 0 30px #03347e;
     padding: 15px 10px;
+    background-color: #8ea1d4;
+    border-radius:10rcap;
 }
 
 .services  .services-box .services-card i{
@@ -157,10 +159,11 @@ section .main img{
 .about{
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 195px;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
+    text-align: center;
 }
 
 .about .about-image img{
@@ -174,6 +177,7 @@ section .main img{
     width: 650px;
     text-align: justify;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .about .about-tag .about-btn{
