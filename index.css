@@ -37,6 +37,7 @@ section nav .logo img{
 section nav li{
     display: inline-block;
     padding: 0 10px;
+    cursor: pointer;
 }
 
 section nav li a{
